@@ -63,5 +63,56 @@ for(let a = 0; a<numberofages; a++){
 }
 */
 
+
+/**
 //objects in js
 
+// const personArray = ["syed", "zain", "anam"]
+// const genderArray = ["male", "male", "female"]
+
+// for(let a = 0; a<personArray.length; a++){
+//     if(genderArray[a] == "male"){
+//         console.log(personArray[a])
+//     }
+// }
+
+
+// const obj = {
+//     firstname: "zaid",
+//     age: 23
+// }
+
+// array of object
+
+const alluser = [
+    {
+        firstname: "syed",
+        age: 23,
+        gender: "male"
+    },
+    {
+        firstname: "zain",
+        gender: "male",
+        metadata: {
+            age: 22,
+            address: ""
+        }
+    }
+]
+
+for (let a = 0; a < alluser.length; a++) {
+    if (alluser[a]['firstname'] == "zain") {
+        let zainage = alluser[a]['metadata']['address']
+        console.log(zainage)
+    }
+}
+
+*/
+
+
+function sum(a, b){
+    return a+ b
+}
+
+const value = sum(7, 8)
+console.log(value)
